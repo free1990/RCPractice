@@ -1,0 +1,4 @@
+
+
+platform :ios
+pod 'ReactiveCocoa', '~> 2.4.4’
