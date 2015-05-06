@@ -15,6 +15,7 @@
 		D64FC9BC1AF8C35900541AAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64FC9BB1AF8C35900541AAB /* Images.xcassets */; };
 		D64FC9BF1AF8C35900541AAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D64FC9BD1AF8C35900541AAB /* LaunchScreen.xib */; };
 		D64FC9CB1AF8C35900541AAB /* RCPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64FC9CA1AF8C35900541AAB /* RCPracticeTests.m */; };
+		D64FC9D61AF9F1C800541AAB /* RWDummySignInService.m in Sources */ = {isa = PBXBuildFile; fileRef = D64FC9D51AF9F1C800541AAB /* RWDummySignInService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		D64FC9C41AF8C35900541AAB /* RCPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D64FC9C91AF8C35900541AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D64FC9CA1AF8C35900541AAB /* RCPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCPracticeTests.m; sourceTree = "<group>"; };
+		D64FC9D41AF9F1C800541AAB /* RWDummySignInService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWDummySignInService.h; sourceTree = "<group>"; };
+		D64FC9D51AF9F1C800541AAB /* RWDummySignInService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWDummySignInService.m; sourceTree = "<group>"; };
 		D9CB031297E516D3ECB6060E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +112,8 @@
 				D64FC9B31AF8C35900541AAB /* AppDelegate.m */,
 				D64FC9B51AF8C35900541AAB /* ViewController.h */,
 				D64FC9B61AF8C35900541AAB /* ViewController.m */,
+				D64FC9D41AF9F1C800541AAB /* RWDummySignInService.h */,
+				D64FC9D51AF9F1C800541AAB /* RWDummySignInService.m */,
 				D64FC9B81AF8C35900541AAB /* Main.storyboard */,
 				D64FC9BB1AF8C35900541AAB /* Images.xcassets */,
 				D64FC9BD1AF8C35900541AAB /* LaunchScreen.xib */,
@@ -281,6 +286,7 @@
 				D64FC9B71AF8C35900541AAB /* ViewController.m in Sources */,
 				D64FC9B41AF8C35900541AAB /* AppDelegate.m in Sources */,
 				D64FC9B11AF8C35900541AAB /* main.m in Sources */,
+				D64FC9D61AF9F1C800541AAB /* RWDummySignInService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -54,14 +54,14 @@
   
   // sign in
   [self.signInService signInWithUsername:self.usernameTextField.text
-                            password:self.passwordTextField.text
-                            complete:^(BOOL success) {
-                              self.signInButton.enabled = YES;
-                              self.signInFailureText.hidden = success;
-                              if (success) {
-                                [self performSegueWithIdentifier:@"signInSuccess" sender:self];
-                              }
-                            }];
+                                password:self.passwordTextField.text
+                                complete:^(BOOL success) {
+                                    self.signInButton.enabled = YES;
+                                    self.signInFailureText.hidden = success;
+                                    if (success) {
+                                    [self performSegueWithIdentifier:@"signInSuccess" sender:self];
+                                    }
+                                }];
 }
 
 
