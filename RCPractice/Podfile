@@ -1,4 +1,14 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, “7.0”
 
+#target “RCPractice” do
 
-platform :ios
-pod 'ReactiveCocoa', '~> 2.4.4’
+platform :ios, '7.0'
+
+pod 'ReactiveCocoa', '~> 2.5'
+
+#end
+
+#target "RCPracticeTests" do
+
+#end
