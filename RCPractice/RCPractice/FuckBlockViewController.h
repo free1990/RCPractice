@@ -11,7 +11,6 @@
 //As a typedef:
 //typedef returnType (^TypeName)(parameterTypes);
 //TypeName blockName = ^returnType(parameters) {...};
-
 typedef int (^testBlock)(int i, int j);
 
 @interface FuckBlockViewController : UIViewController
