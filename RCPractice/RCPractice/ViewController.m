@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "ReactiveCocoa.h"
 #import "RWDummySignInService.h"
+#import "FuckBlockViewController.h"
 
 @interface ViewController ()
 {
@@ -24,6 +25,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    FuckBlockViewController *fuckBlock = [[FuckBlockViewController alloc] init];
+    [self.view addSubview:fuckBlock.view];
+    [self addChildViewController:fuckBlock];
     
     _nameTF = [[UITextField alloc] initWithFrame:CGRectMake(100, 100, 100, 50)];
     _nameTF.backgroundColor = [UIColor redColor];
